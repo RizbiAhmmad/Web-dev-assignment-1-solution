@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* .azeret-mono-<uniquifier> {
+.azeret-mono{
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-} */
+}
  *{
     margin: 0 auto;
     padding: 0px;
@@ -27,7 +27,7 @@
 
 }
 
-/* Main Section */
+/* Main Section 1 */
 
 .starting-section{
     background-image: url("../assets/Hero-bg.png");
@@ -59,3 +59,49 @@
     padding: 21px 24px 21px 24px;
 }
 
+/* web dev section start */
+.web-dev-section{
+    width: 1140px;
+    height: 1395px;
+    align-items: center;
+    padding: 80px 97px 80px 97px;
+}
+
+.web-dev-heading{
+    text-align: center;
+    width: 852px;
+    height: 40px;
+}
+.web-dev-description{
+    text-align: center;
+    width: 852px;
+    height: 100px;
+    color: rgb(13, 19, 33);
+
+}
+.Experience{
+    display: flex;
+    margin: 32px 0px;
+}
+.Experience-heading{
+    width: 470px;
+    height: 80px;
+    text-align: left;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.Experience-description{
+    width: 470px;
+    height: 120px;
+    color: rgb(13, 19, 33);
+}
+
+.Experience-image{
+    width: 260px;
+    height: 220px;
+}
+.web-btn{
+    width: 110px;
+    height: 24px;
+    text-align: center;
+}
