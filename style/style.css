@@ -184,10 +184,11 @@ iframe{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
     width: 1140px;
     height: 314px;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 }
 
 .need-support-heading{
@@ -207,14 +208,22 @@ iframe{
 
 .support-submit{
     width: 600px;
-    height: 80px;
+    height: 200px;
     align-items: center;
-}
+} 
 
-/* submit{
+input[type="submit"]{
     width: 80px;
-height: 24px;
-} */
+    height: 20px;
+
+} 
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+
+}
 
  
 
