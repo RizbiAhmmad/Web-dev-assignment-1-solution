@@ -12,7 +12,7 @@
   font-family: "Azeret Mono", monospace;
  }
 
- /* Header section */
+ /* Header style */
  nav ul li{
     list-style: none;
  }
@@ -27,7 +27,7 @@
 
 }
 
-/* Main Section 1 */
+/* Main Style 1 */
 
 .starting-section{
     background-image: url("../assets/Hero-bg.png");
@@ -59,7 +59,7 @@
     padding: 21px 24px 21px 24px;
 }
 
-/* web dev section start */
+/* web dev style start */
 .web-dev-section{
     width: 1140px;
     height: 1000px;
@@ -106,7 +106,7 @@
     text-align: center;
 }
 
-/* inspiration section */
+/* inspiration style */
 .inspiration{
     width: 1140px;
     height: 777px;
@@ -135,3 +135,47 @@ iframe{
     border-radius: 16px;
     align-items: center;
 }
+
+/* Target style */
+
+.target-heading{
+    width: 852px;
+    height: 39px;
+    text-align: center;
+}
+
+.target-desc{
+    width: 852px;
+    height: 52px;
+    text-align: center;
+}
+
+
+.target-container{
+    display: flex;
+}
+.target-html{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-css{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-js{
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+
