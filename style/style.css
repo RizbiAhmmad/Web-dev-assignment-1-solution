@@ -62,7 +62,7 @@
 /* web dev section start */
 .web-dev-section{
     width: 1140px;
-    height: 1395px;
+    height: 1000px;
     align-items: center;
     padding: 80px 97px 80px 97px;
 }
@@ -104,4 +104,34 @@
     width: 110px;
     height: 24px;
     text-align: center;
+}
+
+/* inspiration section */
+.inspiration{
+    width: 1140px;
+    height: 777px;
+    align-items: center;
+
+}
+
+.Inspiration-heading{
+    width: 852px;
+    height: 39px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+
+.inspiration-description{
+    width: 852px;
+    height: 52px;
+    text-align: center;
+}
+
+iframe{
+    width: 1076px;
+    height: 550px;
+    margin: 10px 0px;
+    border: 32px;
+    border-radius: 16px;
+    align-items: center;
 }
